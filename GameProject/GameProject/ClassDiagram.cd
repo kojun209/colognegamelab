@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FixedVector&lt;T, N&gt;" Collapsed="true">
+    <Position X="12.5" Y="7" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AIJIAAIAAAAgIADQAAAAJAAAAAEAAAAAAACAAABAAAA=</HashCode>
+      <FileName>FixedVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Floor" Collapsed="true">
+    <Position X="6.25" Y="7.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQABABIgQkBQAAQAAAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>Floor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloorFirst" Collapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+      <FileName>FloorFirst.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloorManager" Collapsed="true">
+    <Position X="12.5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAI=</HashCode>
+      <FileName>FloorManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloorSecond" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>FloorSecond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloorThird" Collapsed="true">
+    <Position X="7.75" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>FloorThird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACkICAAQAAAQAgAAAAAAAAAAAAAAAAABAAQAAABBA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectManager" Collapsed="true">
+    <Position X="12.5" Y="5.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAIwAAAAAAAAAEAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ObjectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAQYAQAAAgAAEAAIAAAAAQAACJQAQAQAKBE=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IACIgIAAAkABESAACAAAABAAAgAAACAgAlAAFAgAABA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>QAIIpAAABEAEAQAAABAAAAQFAAAgQAAQBBAQAQBQADA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAACAAAQAAAAAAAABEgAAAAAAAABAABAAAABQ=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemArmor" Collapsed="true">
+    <Position X="12.75" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAICIAQAAAAAAAAAAAAQAAIAAABgAAAACIFA=</HashCode>
+      <FileName>ItemArmor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemWeapon" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAgJACAIAAAQAAAAAAAAAAAAAAAAEAABAABAEAIBA=</HashCode>
+      <FileName>ItemWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Card" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQBAgIAwAAAAAQAAAAAAAAkAAC4AAAAAARAAAIAAABE=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardAttack" Collapsed="true">
+    <Position X="8" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAgIAAAACAgQAAAAACAAAAAAgAAAAAAAAAABAAABA=</HashCode>
+      <FileName>CardAttack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardBuff" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAQAAAAABABAAAAhAAAQAAAAAAAAAABA=</HashCode>
+      <FileName>CardBuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardDebuff" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAQAAAAAAAAAAAAwAAAABgAACAAAAABA=</HashCode>
+      <FileName>CardDebuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardSkill" Collapsed="true">
+    <Position X="8" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAgIAAAAAAAQAAAAAAAAAABggAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CardSkill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABEAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAAI=</HashCode>
+      <FileName>Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorCard" Collapsed="true">
+    <Position X="10.75" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAABoiAAQAEAAAAAAAAAAAIAABAAIAAAAACAAI=</HashCode>
+      <FileName>EditorCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorCore" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAAI=</HashCode>
+      <FileName>EditorCore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorItem" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABICQAQAEAAAIAAAAAAAAAABAAIAAAAACAAI=</HashCode>
+      <FileName>EditorItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorMonster" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABICAAQAEAAAAAAAAAAAAAABAAAAAAAACAQI=</HashCode>
+      <FileName>EditorMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAQAAAABQBAAAI=</HashCode>
+      <FileName>Store.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoreArmor" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>StoreArmor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoreCard" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAAAAAACAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>StoreCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoreManager" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAQAAAAAAAAAAAAAAAABAAAAAAAAAAAI=</HashCode>
+      <FileName>StoreManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoreWeapon" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAI=</HashCode>
+      <FileName>StoreWeapon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory" Collapsed="true">
+    <Position X="10.75" Y="7" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAgAQAAAAAAAAAAgAAAAAAIAAAAAgBAAAI=</HashCode>
+      <FileName>Inventory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ArmorOption" Collapsed="true">
+    <Position X="19.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>EArmorOption.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WeaponOption" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>EWeaponOption.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LevelUpInfo" Collapsed="true">
+    <Position X="21" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAQAA=</HashCode>
+      <FileName>LevelUpTable.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CharacterInfo" Collapsed="true">
+    <Position X="24.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAgAASAA=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonsterBuffInfo" Collapsed="true">
+    <Position X="22.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MonsterDebuffInfo" Collapsed="true">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ItemInfo" Collapsed="true">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAAAAAAAAAAAAAABAAAQAAAAAAAQA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AttackCardInfo" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAECAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardAttack.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BuffCardInfo" Collapsed="true">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>CardBuff.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DebuffCardInfo" Collapsed="true">
+    <Position X="26.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardDebuff.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SkillCardInfo" Collapsed="true">
+    <Position X="26.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardSkill.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="eGameMode" Collapsed="true">
+    <Position X="19.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eArmorOption" Collapsed="true">
+    <Position X="22.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EArmorOption.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eBattleResult" Collapsed="true">
+    <Position X="24.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>EBattleResult.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eBuffFlag" Collapsed="true">
+    <Position X="26.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAQAAAAFAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EBuffFlag.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00da_1" Collapsed="true">
+    <Position X="21" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ECardDeckInfo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eCardType" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAQDA=</HashCode>
+      <FileName>ECardType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eClassType" Collapsed="true">
+    <Position X="22.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EClassType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDebuffFlag" Collapsed="true">
+    <Position X="24.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAQEAAAAAAEAAABAAAAAAAgAAAAA=</HashCode>
+      <FileName>EDebuffFlag.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEquippedItemType" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>EEquippedItemType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eItemType" Collapsed="true">
+    <Position X="22.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAEAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EItemType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eMonsterClass" Collapsed="true">
+    <Position X="26.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>EMonsterClass.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eBuffType" Collapsed="true">
+    <Position X="19.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>EBuffType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eObjectType" Collapsed="true">
+    <Position X="19.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAQAiIAAAAAAAAQAQAAAAAAAAAAAIA=</HashCode>
+      <FileName>EObjectType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eWeaponOption" Collapsed="true">
+    <Position X="24.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>EWeaponOption.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eFloorNumber" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>EFloorNumber.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0021_1" Collapsed="true">
+    <Position X="19.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eMainMenu" Collapsed="true">
+    <Position X="24.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAACIAAAAAAAEAAAAAAAAAAEAA=</HashCode>
+      <FileName>Core.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEditCardMenu" Collapsed="true">
+    <Position X="26.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAYAAAAAAAIEAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditorCard.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEditMenu" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAIA=</HashCode>
+      <FileName>EditorCore.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEditItemMenu" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAYAAAAAAAIEAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditorItem.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEditMonsterMenu" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAYAAAAAAAIEAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditorMonster.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eStoreType" Collapsed="true">
+    <Position X="21" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAABAAACAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StoreManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eInventoryMenu" Collapsed="true">
+    <Position X="21" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eUpgradeMenu" Collapsed="true">
+    <Position X="22.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Inventory.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
