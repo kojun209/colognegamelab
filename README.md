@@ -1,7 +1,5 @@
 # colognegamelab
-Cologne Game Lab Application Tasks
-
-(Game Pitch Document: https://punintended.tistory.com/1)
+Cologne Game Lab Application Tasks (Game Pitch Document: https://punintended.tistory.com/1)
 
 Game Project
 
